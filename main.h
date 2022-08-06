@@ -1,6 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _printf(const char *format, ...);
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdarg.h>
 
+int _printf(const char *format, ...);
+int _putchar(char);
 #endif
