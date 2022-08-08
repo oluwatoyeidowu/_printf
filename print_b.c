@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_b - A function that prints an unsigned int i binary notation
+ * print_b - Function that prints unsigned int i binary notation
  * @b: unsigned in to print
  * Return: number of printed digits
  */
+
 int print_b(va_list b)
 {
 	unsigned int n, m = 2147483648, j = 1, sum = 0;
